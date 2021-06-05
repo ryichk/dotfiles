@@ -19,13 +19,14 @@
   untrached = cyan
 [alias]
   a = add
-  s = status
-  cm = commit
   b = branch
+  s = status
   ch = checkout
+  cm = commit
   cp = cherry-pick
+  d = diff
 [user]
-	name = ryichk
-	email = ryichk@gmail.com
+  name = ryichk
+  email = ryichk@gmail.com
 [core]
-	excludesfile = ~/.gitignore_global
+  excludesfile = ~/.gitignore_global
