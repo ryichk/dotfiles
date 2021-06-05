@@ -1,17 +1,19 @@
 # See https://help.github.com/articles/ignoring-files for more about ignoring files.
 
-.pryrc
 .DS_Store
+.env
 
 # Ignore bundler config.
 .bundle
+/vendor
 
 # Ignore all logfiles and tempfiles.
+*.log
 log/*
 tmp/*
-!/log/.keep
-!/tmp/.keep
-log/*.log
 
-.env
-/vendor
+# npm
+/node_modules
+
+# Compiled Python files
+*.pyc
