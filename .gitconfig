@@ -1,0 +1,31 @@
+[init]
+  defaultBranch = main
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+  ui = auto
+[color "branch"]
+  current = green
+  remote = yellow
+[color "diff"]
+  meta = yellow bold
+  old = red
+  new = green
+[color "status"]
+  added = green
+  changed = yellow
+  untrached = cyan
+[alias]
+  a = add
+  s = status
+  cm = commit
+  b = branch
+  ch = checkout
+  cp = cherry-pick
+[user]
+	name = ryichk
+	email = ryichk@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
