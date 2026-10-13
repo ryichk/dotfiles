@@ -1,8 +1,8 @@
 vim.opt.clipboard = "unnamedplus"
 -- 全角スペース可視化
 vim.cmd[[
-  hi DoubleByteSpace term=underline ctermbg=blue guibg=darkgray
-  match DoubleByteSpace /　/
+	hi DoubleByteSpace term=underline ctermbg=blue guibg=darkgray
+	match DoubleByteSpace /　/
 ]]
 -- 空白・タブ可視化
 vim.wo.list = true
@@ -35,3 +35,4 @@ require("mason-lspconfig").setup_handlers({
 })
 -- LSから受け取ったエラーなどの診断情報を表示する
 vim.diagnostic.config()
+

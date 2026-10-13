@@ -1,0 +1,55 @@
+# Font
+font-family = Monaco
+font-size = 16
+font-style-italic = true
+font-style-bold = true
+
+# Window
+window-padding-x = 2
+window-padding-y = 2
+background-opacity = 0.89
+
+# Cursor
+cursor-style = block
+cursor-style-blink = false
+
+# Scrollback
+scrollback-limit = 10000
+
+# Terminal
+macos-option-as-alt = true
+
+# Quick Terminal (global hotkey)
+keybind = global:shift+enter=toggle_quick_terminal
+
+# Colors - Custom Dracula-based palette
+background = #1e1f29
+foreground = #59f68d
+
+# Normal colors
+palette = 0=#000000
+palette = 1=#ff5555
+palette = 2=#50fa7b
+palette = 3=#f1fa8c
+palette = 4=#bd93f9
+palette = 5=#ff79c6
+palette = 6=#8be9fd
+palette = 7=#bbbbbb
+
+# Bright colors
+palette = 8=#555555
+palette = 9=#ff5555
+palette = 10=#50fa7b
+palette = 11=#f1fa8c
+palette = 12=#bd93f9
+palette = 13=#ff79c6
+palette = 14=#8be9fd
+palette = 15=#ffffff
+
+# Cursor
+cursor-color = #bbbbbb
+cursor-text = #ffffff
+
+# Selection
+selection-background = #99ecfd
+selection-foreground = #6b26d0
